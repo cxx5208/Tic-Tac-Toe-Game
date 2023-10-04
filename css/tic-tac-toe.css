@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(to bottom, #007bff, #009688); /* Gradient background */
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 500px;
+  border-radius: 5%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a card effect */
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  background-color: #666;
+  border: 5px solid white;
+  font-size: 80px;
+  color: #fff;
+  border-radius: 10%;
+}
+
+#player {
+  padding: 1rem;
+  font-size: 24px;
+  text-align: center;
+  color: #333; /* Dark text color */
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Additional styling for buttons or other elements can be added here */
